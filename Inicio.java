@@ -9,7 +9,7 @@ public class Inicio extends JFrame implements ActionListener{
    public JTextField idTXT, nombreTXT, telefonoTXT, emailTXT, fechaTXT;
    public String auxId, auxNombre, auxEmail, auxFecha, auxTelefono, auxIdModificar, nombreNuevo, direccionNueva, fechaNueva, numeroNuevo;
    public int auxIdModificarVerificado, auxOpcModificar=0;
-   static int tama = 4;
+   static int tama = 80;
    public boolean modiValue;
    static int contPersonasArreglo = 0;// contPersonasVisible = 1;
    static controlPersonas[] acceder = new controlPersonas[tama];
